@@ -1,38 +1,3 @@
-// function enviaCarta(amount) {
-//   console.log("Carta " + amount + " enviada");
-//   if (amount === 1) {
-//     return amount;
-//   } else {
-//     let amountRemaining = amount - 1;
-//     console.log("chamando função novamente");
-//     return enviaCarta(amountRemaining);
-//   }
-// }
-//enviaCarta(10);
-// function facaAContagem() {
-//   //enviaCarta(10);
-//   contagemRegressiva(5);
-// }
-// function contagemRegressiva(contagem) {
-//   console.log("contando a quantidade é " + contagem);
-//   if (contagem === 1) {
-//     return contagem;
-//   } else {
-//     let contagemAtualizada = contagem - 1;
-//     return contagemRegressiva(contagemAtualizada);
-//   }
-// }
-
-// function enviaCarta(amount) {
-//   console.log("Carta " + amount + " enviada");
-//   if (amount === 1) {
-//     return amount;
-//   } else {
-//     let amountRemaining = amount - 1;
-//     console.log("chamando função novamente");
-//     return enviaCarta(amountRemaining);
-//   }
-// }
 function facaAContagem() {
   document.getElementById("resultadox").innerHTML = "";
 
